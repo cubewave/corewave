@@ -62,6 +62,7 @@ specs:
     logsPath: "FC_MyApp.log"
     CPU: 1
     RAM: 1024
+    image: "sample_app"
 
   MyApp2:
     ...
@@ -82,6 +83,8 @@ specs:
 
 `RAM`: Amount of RAM to allocate to the MicroVM (in MB)
 
+`Image`(optional): Absolute path to any executable you want to run as a daemon in the MicroVm.
+
 
 ### Running Corewave
 
@@ -98,7 +101,7 @@ Corewave will then generate the necessary infrastructure components on your host
 
 /!\ **After each new executing of Corewave to provision new MicroVMs, the previous set of MicroVMs and data will be deleted. This will be changed in the upcoming release.** /!\
 
-# Interacting with Micro VMs:
+# Working with MicroVm:
 
 Once your MicroVMs are up and running, Corewave provides a set of commands to easily monitor and interact with your MicroVMs:
 
