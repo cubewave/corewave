@@ -96,6 +96,8 @@ Corewave will then generate the necessary infrastructure components on your host
 
 **Note:** For now Corewave needs to run with privileged permissions so please make sure you are either root or using sudo when running Corewave
 
+**<span style="color:red">After each new executing of Corewave to provision new MicroVMs, the previous set of MicroVMs and data will be deleted. This will be changed in the upcoming release.</span>**
+
 # Interacting with Micro VMs:
 
 Once your MicroVMs are up and running, Corewave provides a set of commands to easily monitor and interact with your MicroVMs:
