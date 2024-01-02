@@ -17,6 +17,10 @@ We are providing two devtools: **Corewave** and **Cubeware**.
 
 - **Cubeware** is an orchestrator, it automates the deployment and scaling of micro vms.
 
+## Community and Updates
+
+To keep updated on our progress, join our discord [server](https://discord.gg/dEFaa5uf6g) and follow us on [Twitter](https://twitter.com/cubewave_dev)!
+
 ## Requirements:
 
 ### KVM requirements:
