@@ -1,5 +1,5 @@
 
-# Cubewave
+# Corewave
 
 
 [![made-with-Go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg)](https://go.dev/)
@@ -9,13 +9,12 @@
 [![Discord](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.gg/dEFaa5uf6g)
 
 ## What is Cubewave?
+Cubewave serves as the Heroku for AI agents, allowing easy deployment of your LLM in a secure cloud environment from tools like Rivet, langflow...
 
-Cubewave is a platform designed to help developers create and manage micro vms. Our tools make deploying microVMs through Firecracker simpler, minimizing the complexities entailed in the process.
-We are providing two devtools: **Corewave** and **Cubeware**.
+Cubewave is providing tools to make deploying microVMs through Firecracker simpler, minimizing the complexities entailed in the process.
 
 - **Corewave** operates as the equivalent of "docker-compose" for microVMs, enabling the configuration and creation of microVMs through a YAML file.
 
-- **Cubeware** is an orchestrator, it automates the deployment and scaling of micro vms.
 
 ## Community and Updates
 
